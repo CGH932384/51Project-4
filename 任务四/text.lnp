@@ -1,0 +1,10 @@
+"AT24C02.obj",
+"Delay.obj",
+"I2C.obj",
+"Key.obj",
+"LCD1602.obj",
+"main.obj",
+"Timer0.obj" 
+TO "text" 
+RAMSIZE(256) 
+DISABLEWARNING (16) 

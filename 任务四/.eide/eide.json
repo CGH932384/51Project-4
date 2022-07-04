@@ -1,0 +1,119 @@
+{
+  "name": "任务四",
+  "type": "C51",
+  "mode": "Target 1",
+  "toolchain": "Keil_C51",
+  "uploader": "stcgal",
+  "dependenceList": [
+    {
+      "groupName": "custom",
+      "depList": [
+        {
+          "name": "default",
+          "sourceDirList": [],
+          "libList": [],
+          "incList": [
+            "E:/Keil5/C51/INC/Atmel"
+          ],
+          "defineList": []
+        }
+      ]
+    }
+  ],
+  "compileConfig": {
+    "options": "null"
+  },
+  "srcDirs": [],
+  "virtualFolder": {
+    "name": "<virtual_root>",
+    "files": [],
+    "folders": [
+      {
+        "name": "Source Group 1",
+        "files": [
+          {
+            "path": "AT24C02.c"
+          },
+          {
+            "path": "AT24C02.h"
+          },
+          {
+            "path": "Delay.c"
+          },
+          {
+            "path": "Delay.h"
+          },
+          {
+            "path": "I2C.c"
+          },
+          {
+            "path": "I2C.h"
+          },
+          {
+            "path": "Key.c"
+          },
+          {
+            "path": "Key.h"
+          },
+          {
+            "path": "LCD1602.c"
+          },
+          {
+            "path": "LCD1602.h"
+          },
+          {
+            "path": "main.c"
+          },
+          {
+            "path": "Timer0.c"
+          },
+          {
+            "path": "Timer0.h"
+          }
+        ],
+        "folders": []
+      }
+    ]
+  },
+  "excludeList": [],
+  "outDir": "build",
+  "deviceName": null,
+  "packDir": null,
+  "uploadConfig": {
+    "bin": "",
+    "eepromImgPath": "null",
+    "extraOptions": "",
+    "options": ".eide/stc.flash.json"
+  },
+  "uploadConfigMap": {},
+  "miscInfo": {
+    "uid": "0896cec7cc92222edb75146c40382fde"
+  },
+  "targets": {
+    "Target 1": {
+      "compileConfig": {
+        "options": "null"
+      },
+      "uploader": "stcgal",
+      "uploadConfig": {
+        "bin": "",
+        "eepromImgPath": "null",
+        "extraOptions": "",
+        "options": ".eide/stc.flash.json"
+      },
+      "uploadConfigMap": {},
+      "toolchain": "Keil_C51",
+      "custom_dep": {
+        "name": "default",
+        "sourceDirList": [],
+        "libList": [],
+        "incList": [
+          "E:/Keil5/C51/INC/Atmel"
+        ],
+        "defineList": []
+      },
+      "excludeList": []
+    }
+  },
+  "version": "3.1"
+}
